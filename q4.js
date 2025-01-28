@@ -16,3 +16,10 @@
         return this.firstName + ' ' + this.lastName;
     }
 };
+
+console.log("City:", person.address.city);
+console.log("Street:", person.address.street);
+console.log("Zip Code:", person.address.zipCode);
+
+
+console.log("Full Name:", person.getFullName());
